@@ -1,0 +1,89 @@
+.tokenomics-section-background {
+    background-image: radial-gradient(yellow, rgb(255, 150, 0));
+
+    .py-5 {
+        .tokenomic-content {
+            display: table;
+            margin: auto;
+        }
+
+        div {
+            h2.tokenomics-sec-title {
+                font-family: 'NightinTokyo';
+                border-bottom: 3px solid #212529;
+                font-size: 5em;
+                display: inline-block;
+                padding-bottom: 0 !important;
+                font-weight: bold;
+            }
+
+            h3 {
+                font-size: 2em;
+                font-family: 'NightinTokyo';
+                border-bottom: 2px solid #212529;
+                display: inline-block;
+                padding-bottom: 0 !important;
+                font-weight: bold;
+            }
+
+            ul {
+                font-family: 'Economica';
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+
+            .position-relative {
+                .tokenomics-sec-image {
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+    }
+
+    .tokenomics-second-part {
+        h2.tokenomics-sec-list-title {
+            font-family: 'NightinTokyo';
+            font-size: 5em;
+        }
+        ul.tokenomics-sec-list {
+            font-family: 'Arial';
+            font-size: 1.7em;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    h2.tokenomics-sec-title {
+        font-size: 3em !important;
+    }
+
+    h3 {
+        font-size: 1.5em !important;
+    }
+
+    h2.tokenomics-sec-list-title {
+        font-size: 3em !important;
+    }
+
+    ul.tokenomics-sec-list {
+        font-size: 1.3em !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h2.tokenomics-sec-title {
+        font-size: 3em !important;
+    }
+
+    h2.tokenomics-sec-list-title {
+        font-size: 1.7em !important;
+    }
+
+    ul.tokenomics-sec-list {
+        font-size: 1em !important;
+    }
+}
